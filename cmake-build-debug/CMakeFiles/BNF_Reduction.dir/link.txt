@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/BNF_Reduction.dir/main.cpp.o  -o BNF_Reduction.exe -Wl,--out-implib,libBNF_Reduction.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
