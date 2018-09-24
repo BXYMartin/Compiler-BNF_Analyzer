@@ -262,7 +262,7 @@ void CTree::deleteFather( pSTreeNode pNode ){
         while (Temp->pNextBrother != pNode)
             Temp = Temp->pNextBrother;
         cout << ">> Cut " << Temp->pNextBrother->data << " Branch" << endl;
-        Temp->pNextBrother = nullptr;
+        Temp->pNextBrother = Temp->pNextBrother->pNextBrother;
         return;
     }
 }
